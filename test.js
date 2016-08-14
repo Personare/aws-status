@@ -1,7 +1,7 @@
 import test from 'ava';
 import awsStatus from './';
 
-test('should throw exception with invalid arguments', t => {
+test('should throw exception with the invalid arguments', t => {
     t.throws(() => {
         awsStatus(undefined, ['EC2', 'RDS']);
     }, /Expected a string but got undefined/);
