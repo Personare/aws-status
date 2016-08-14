@@ -1,0 +1,30 @@
+{
+  "name": "aws-status",
+  "version": "0.1.0",
+  "description": "Simple way for check the AWS Status from the official status page",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cauealves/aws-status.git"
+  },
+  "keywords": [
+    "aws",
+    "aws-status",
+    "check",
+    "health",
+    "health",
+    "services"
+  ],
+  "author": "Cauê Alves <cauealveseng@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cauealves/aws-status/issues"
+  },
+  "homepage": "https://github.com/cauealves/aws-status#readme",
+  "devDependencies": {
+    "ava": "^0.16.0"
+  }
+}
