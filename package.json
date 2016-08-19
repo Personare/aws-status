@@ -26,5 +26,9 @@
   "homepage": "https://github.com/cauealves/aws-status#readme",
   "devDependencies": {
     "ava": "^0.16.0"
+  },
+  "dependencies": {
+    "request": "^2.74.0",
+    "xml2js": "^0.4.17"
   }
 }

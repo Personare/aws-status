@@ -22,3 +22,11 @@ test('should throw exception with the invalid arguments', t => {
         awsStatus('us-east-1', 'EC2');
     }, /Expected an array but got string/);
 });
+
+test('should return an array with the correct services', async t => {
+    const service = 'EC2';
+
+    await awsStatus('us-east-1', [service]).then(result => {
+        t.is(result[0].service, service);
+    });
+});
