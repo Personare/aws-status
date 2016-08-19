@@ -18,8 +18,6 @@ awsStatus('us-east-1', ['EC2']).then(result => {
 });
 ```
 
-### Reference:
-
 Status  | Description
 ---        | ---
 0 | Service is operating normally.
