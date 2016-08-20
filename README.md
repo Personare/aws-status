@@ -24,6 +24,9 @@ Status  | Description
 1 | Performance issues (warning).
 2 | Service disruption (critical problem).
 
+## Related
+- [aws-status-cli](https://github.com/cauealves/aws-status-cli) - CLI for this package.
+
 ## License
 
 MIT © [Cauê Alves](http://cauealves.com)
