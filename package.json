@@ -4,7 +4,8 @@
   "description": "Simple way for check the AWS Status from the official status page",
   "main": "index.js",
   "scripts": {
-    "test": "ava test.js"
+    "test": "ava test.js",
+    "prepublish": "npm run test"
   },
   "repository": {
     "type": "git",
