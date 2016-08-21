@@ -14,9 +14,16 @@ npm i --save aws-status
 const awsStatus = require('aws-status');
 
 awsStatus('us-east-1', ['EC2']).then(result => {
-    console.log(result); // [ { service: 'EC2', status: 0 } ]
+    console.log(result.service); // EC2
+    console.log(result.status); // 0
 });
 ```
+
+Status  | Description
+---        | ---
+0 | Service is operating normally (is ok).
+1 | Performance issues (warning).
+2 | Service disruption (critical problem).
 
 ## API
 
@@ -35,12 +42,6 @@ Region you want to check.
 Type: `string`
 
 The AWS service.
-
-Status  | Description
----        | ---
-0 | Service is operating normally (is ok).
-1 | Performance issues (warning).
-2 | Service disruption (critical problem).
 
 ## Related
 - [aws-status-cli](https://github.com/cauealves/aws-status-cli) - CLI for this package.
