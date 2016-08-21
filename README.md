@@ -13,7 +13,7 @@ npm i --save aws-status
 ```js
 const awsStatus = require('aws-status');
 
-awsStatus('us-east-1', ['EC2']).then(result => {
+awsStatus('us-east-1', 'EC2').then(result => {
     console.log(result.service); // EC2
     console.log(result.status); // 0
 });
