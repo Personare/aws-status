@@ -18,6 +18,24 @@ awsStatus('us-east-1', ['EC2']).then(result => {
 });
 ```
 
+## API
+
+### awsStatus(region, service)
+
+Returns a Promise with the status of service.
+
+#### region
+
+Type: `string`
+
+Region you want to check.
+
+#### service
+
+Type: `string`
+
+The AWS service.
+
 Status  | Description
 ---        | ---
 0 | Service is operating normally (is ok).
