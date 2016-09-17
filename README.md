@@ -1,4 +1,4 @@
-# aws-status [![Build Status](https://travis-ci.org/cauealves/aws-status.svg?branch=master)](https://travis-ci.org/cauealves/aws-status) [![Dependency Status](https://david-dm.org/cauealves/aws-status.svg?style=flat-square)](https://david-dm.org/cauealves/aws-status) [![Npm Package Version](https://img.shields.io/npm/v/aws-status.svg?style=flat-square)](https://www.npmjs.org/package/aws-status)
+# aws-status [![Build Status](https://travis-ci.org/ceasbz/aws-status.svg?branch=master)](https://travis-ci.org/ceasbz/aws-status) [![Dependency Status](https://david-dm.org/ceasbz/aws-status.svg?style=flat-square)](https://david-dm.org/cauealves/aws-status) [![Npm Package Version](https://img.shields.io/npm/v/aws-status.svg?style=flat-square)](https://www.npmjs.org/package/aws-status)
 
 > Simple way for check the AWS Status from the [official status page](http://status.aws.amazon.com/)
 
@@ -44,8 +44,8 @@ Type: `string`
 The AWS service.
 
 ## Related
-- [aws-status-cli](https://github.com/cauealves/aws-status-cli) - CLI for this package.
+- [aws-status-cli](https://github.com/ceasbz/aws-status-cli) - CLI for this package.
 
 ## License
 
-MIT © [Cauê Alves](http://cauealves.com)
+MIT © [Cauê Alves](./LICENSE)
