@@ -1,6 +1,6 @@
 {
   "name": "aws-status",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Simple way for check the AWS Status from the official status page",
   "main": "index.js",
   "scripts": {
