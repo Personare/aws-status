@@ -23,7 +23,11 @@ module.exports = (region, service) => {
             parseString(body, (err, result) => {
                 const lastTitleItem = (result.rss.channel[0].item[0].title[0]._).toLowerCase();
 
-                const isNormally = (lastTitleItem.indexOf('service is operating normally') > -1);
+                const isNormally = (
+                    lastTitleItem.indexOf('service is operating normally') > -1 ||
+                    lastTitleItem.indexOf('resolved') > -1
+                );
+
                 const hasWarning = (
                     lastTitleItem.startsWith('performance issues') ||
                     lastTitleItem.startsWith('informational message')
