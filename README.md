@@ -43,9 +43,6 @@ Type: `string`
 
 The AWS service.
 
-## Related
-- [aws-status-cli](https://github.com/ceasbz/aws-status-cli) - CLI for this package.
-
 ## License
 
 MIT © [Cauê Alves](./LICENSE)
